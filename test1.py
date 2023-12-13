@@ -8,7 +8,7 @@ import pytest
 username = "prashantsharma"
 accessToken = "RlEUtZdSXJkl3iEtXNx6eWFSyLBfDJlkYRYG1igfb1OjpXfXRp"
 build = os.getenv('LT_BUILD_NAME')
-os.environ['LT_GRID_URL'] = 'https://prashantsharma:{AQAAABAAAABAvJUzCmhyN6piWVOFEIEF+Q7bPcDsSafuiRJN3pqDwq1ZY7IIJm6RlgnD3xpV1isd0njjE5sfVtr1PXpjVfpd9h6ZLAv+BKBZL8pClZlGv20=}@hub.lambdatest.com/wd/hub'
+os.environ['LT_GRID_URL'] = 'https://marinak:{WVEai7L49bZLoHr5iKTFJ8OXkxJBfBc5zjKEympc1VcnQ7z30N=}@hub.lambdatest.com/wd/hub'
 gridUrl = "hub.lambdatest.com/wd/hub"
 options = ChromeOptions()
 options.browser_version = "112.0"
@@ -32,8 +32,8 @@ driver = webdriver.Remote(
         options=options
     )
 
-Username = "prashantsharma@lambdatest.com"
-pd = "aARUSH@123"
+Username = "marinak@lambdatest.com"
+pd = "Shoaib@786786"
 Url = "https://accounts.lambdatest.com/login"
 
 # driver = webdriver.Chrome()
